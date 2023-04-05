@@ -1,0 +1,16 @@
+.container {
+    margin: auto;
+}
+
+body {
+    background-color: rgb(242, 113, 44);
+    color: #fff;
+    text-shadow: 1px 1px 5px black;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin-top: 20%;
+}
