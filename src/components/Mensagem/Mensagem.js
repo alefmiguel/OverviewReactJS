@@ -1,9 +1,9 @@
-import styles from "./Mensagem.modules.css";
+import styles from "./Mensagem.module.css";
 
 function Mensagem() {
   return (
     <div className={styles.container}>
-      <h1 className={styles.titulo}> Olá, meu nome é Álef! </h1>
+      <h1 className={styles.titulo}> Testando Algumas Funcionalidades em React</h1>
     </div>
   );
 }

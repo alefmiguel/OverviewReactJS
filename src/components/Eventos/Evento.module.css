@@ -1,0 +1,29 @@
+h3 {
+    background-color: black;
+    width: fit-content;
+    margin: auto;
+    padding: .5em;
+    border-radius: 15px;
+}
+
+h3:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+    transition: .4s all ease-in-out;
+    color: black;
+    box-shadow: 1px 1px 20px black;
+}
+
+h2 {
+    margin: 2em;
+}
+
+input {
+    padding: .3em;
+    margin-top: 3em;
+    width: 20em;
+    border-radius: 8px;
+    height: 2.5em;
+    outline: none;
+    border: none;
+}
