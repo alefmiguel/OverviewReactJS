@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styles from "./Evento.module.css";
+import BotaoTeste from "./BotaoTeste";
 
 function Evento() {
   function meuEvento() {
@@ -11,8 +12,13 @@ function Evento() {
     const txt = document.querySelector("h2");
     const valor = document.querySelector("input");
     txt.textContent = valor.value;
-    setTexto(valor.value)
-    console.log(`Texto alterado: ${texto}`)
+    setTexto(valor.value);
+    console.log(`Texto alterado: ${texto}`);
+  }
+
+  function puxaDados() {
+    const dado = document.querySelector("h3").textContent;
+    alert(dado);
   }
 
   const [texto, setTexto] = useState();
@@ -26,6 +32,7 @@ function Evento() {
         onChange={alteraTxt}
       />
       <h2> Valor que será mudado </h2>
+      <BotaoTeste event={puxaDados} />
     </>
   );
 }
