@@ -2,10 +2,10 @@
     margin: auto;
     margin-top: 1em;
     text-shadow: 1px 1px 5px black;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .titulo {
-    background-color: black;
+    background-color: rgb(189, 80, 80);
     box-shadow: 1px 1px 10px black;
+    color: white;
 }
