@@ -1,11 +1,20 @@
 .container {
     margin: auto;
     margin-top: 1em;
+    margin-bottom: 2em;
     text-shadow: 1px 1px 5px black;
 }
 
 .titulo {
-    background-color: rgb(189, 80, 80);
+    background-color: #CD5334;
     box-shadow: 1px 1px 10px black;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.titulo svg {
+    color: black;
 }
